@@ -19,9 +19,9 @@ class TelegramNotification extends Notification
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($order)
     {
-        //
+        $this->order = $order;
     }
 
     /**
@@ -54,8 +54,8 @@ class TelegramNotification extends Notification
 
         return TelegramMessage::create()
             ->to(45177248)// Optional.
-            ->content("*HELLO!* \n One of your invoices has been paid!")// Markdown supported.
-            ->button('View Invoice', 'http://yuridik.uz/login'); // Inline Button
+            ->content("*Yangi A'zo* \n *Ismi:* `".$this->order->name."` \n *Tel:* `".$this->order->phone."`");
+            //->content("*Yangi A'zo* \n *ID:* ".$this->order->id."\n *Ismi:* `".$this->order->name."` \n *Tel:* `".$this->order->phone."`");
     }
 
     /**

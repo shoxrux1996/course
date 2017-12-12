@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Notifications\TelegramNotification;
+use App\Order;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -11,18 +13,21 @@ class HomeController extends Controller
      *
      * @return void
      */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
 
     /**
      * Show the application dashboard.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function submit(Request $request)
     {
-        return view('home');
+        $request->validate([
+            'name'=>'required',
+            'phone'=>'required'
+        ]);
+        $user = new Order($request->all());
+        $user->save();
+        $user->notify(new TelegramNotification($user));
+        return redirect()->back();
     }
 }

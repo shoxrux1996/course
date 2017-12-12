@@ -10,18 +10,10 @@ use App\Notifications\TelegramNotification;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/test', function (){
-    $user = \App\User::find(1);
-    
-    $user->notify(new TelegramNotification());
-});
-Route::post('/t',function (\Illuminate\Http\Request $request){
-    dd($request->name);
-})->name('submit');
+Route::post('/submit','HomeController@submit')->name('submit');
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
