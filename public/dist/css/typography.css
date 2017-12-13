@@ -1,28 +1,28 @@
 @media only screen and (min-width:1200px){
 	.content h1{font-size: 36pt;}
 	.content1 p{font-size: 40px;}
-	.my-row h2{font-size:25px;}
-	.my-row p{font-size:14px;}
+	.middle .row h2{font-size:25px;}
+	.middle .row p{font-size:14px;}
 	
 }
 
 @media only screen and (min-width:992px){
 	.content h1{font-size: 48px;}
 	.content1 p{font-size: 40px;}
-	.my-row h2{font-size:36px;}
-	.my-row p{font-size:32px;line-height:1.2; }
+	.middle .row h2{font-size:36px;}
+	.middle .row p{font-size:32px;list-style:1.2; }
 }
 
 @media only screen and (min-width:768px){
 	.content h1{font-size: 50px;}
 	.content1 p{font-size: 40px;}
-	.my-row h2{font-size:32px;}
-	.my-row p{font-size:30px;line-height:1.5; }
+	.middle .row h2{font-size:32px;}
+	.middle .row p{font-size:30px;line-height:1.5; }
 }
 
 @media only screen and (max-width:768px){
 	.content h1{font-size: 32px;}
 	.content1 p{font-size: 17px;}
-	.my-row h2{font-size:20px;}
-	.my-row p{font-size:18px;line-height:2;}
+	.middle .row h2{font-size:20px;}
+	.middle .row p{font-size:18px;line-height:2;}
 }

@@ -115,7 +115,7 @@ html,body{
     font-size: 25px;
     color:#fff;
     display:block;
-    transition: 0.3s;
+    transition:0.3;
     text-align:center; 
 }
 
@@ -228,25 +228,17 @@ color:#fff;
   
 }
 
-
-
+/*.middle .row{
+    padding-top:200px; 
+}
+*/
 
 /*.middle b{
     color:#0c8100; 
 }*/
 
-/*#middle-row{
-    position: absolute;
-    transform:translateY(100%);
-    text-align:center; 
-    right:5%; 
-    left:5%; 
 
-
-
-}*/
-
-    /*Form Group*/
+/*Form Group*/
 
 form{
   padding-top:20px; 
@@ -290,40 +282,30 @@ input[type=submit]:hover {
 
 /* Footer section/*/
 
-footer{
+.footer{
 	height:100%; 
     width:100%; 
 	background:#fff;  
-    border-top: 80px solid #b30000; 
-    border-bottom: 80px solid #b30000; 
-    overflow-x:hidden; 
+    border-top: 50px solid #b30000; 
+    border-bottom: 50px solid #b30000; 
+     overflow: hidden;
 }
 
-
-
-footer h3{
-    margin-top: 0!important;
-	color:red; 
-    font-family:'Autour One';
-    font-size:25px;  
-
+.footer ul li{
+    font-family:Aldrich; 
 }
 
-.map{
-    width:70%;
-    height:50%;
-    margin:10px 0px 0px 150px;        
-   transform:translateY(10%); 
+.footer h3{
+    color:red; 
 }
 
+#col4{
+    margin-top:120px;
+    text-align:right;  
+}
 
-footer ul {
-    text-align: right;
-    float: right;
-    display: inline-block;
-    position:absolute;
-    transform:translateY(130%); 
-    right: -15%;
+#col8{
+    padding:70px; 
 }
 
 

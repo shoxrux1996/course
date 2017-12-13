@@ -1,165 +1,21 @@
-
-/*4K Laptop*/
-
-/*@media only screen and (max-width:2560px){
-	.content1{overflow:hidden;margin-top:40%;}
-	.content1 img{width:60%;height:100%;}
-	.content h1{font-size: 30px;}
-	.content1 p{font-size: 40px;}
-	
-}*/
-
-/* Laptop L*/
-
-/*@media only screen and (max-width:1440px){
-	.content1{margin-top:20%;}
-	.content h1{font-size: 50px;}
-	.content1 p{font-size: 30px;}
-}*/
-
-/*iPad Pro width and height*/
-/*@media only screen and (max-height:1366px){
-	.content1{margin-top: 5%;}
-	.content h1{font-size: 50px;}
-	.content1 p{font-size: 30px;}
-
-}
-
-@media only screen and (max-width:1024px){
-	.content1{margin-top: 35%;}
-	.content h1{font-size: 50px;}
-	.content1 p{font-size: 30px;}
-}*/
-
-/*iPad width*/
-
-/*@media only screen and (max-width:768px){
-	.content1{margin-top: 40%;}
-	.content h1{font-size: 20px;}
-	.content1 p{font-size: 20px;}
-}
-
-@media only screen and (max-height:1024px){
-	.content1{margin-top: 40%;}
-	.content h1{font-size: 20px;}
-	.content1 p{font-size: 20px;}
-}*/
-
-
-/*Mobile L width*/
-
-/*@media only screen and (max-width:425px) {
-	.content1{margin-top:35%;}
-	.content h1{font-size: 16px;}
-	.content1 p{font-size: 14px;}
-}*/
-
-/*iPhone 6 plus width*/
-
-/*@media only screen and (max-width:414px) {
-	.content1{margin-top:50%;}
-	.content h1{font-size: 16px;}
-	.content1 p{font-size: 14px;}
-}
-
-@media only screen and (max-height:736px){
-	.content1{margin-top:50%;}
-	.content h1{font-size: 20px;}
-	.content1 p{font-size: 20px;}
-}*/
-
-/*iPhone Nexus 6P, 5X width and height*/
-
-/*@media only screen and (max-width:412px) {
-	.content1{margin-top:45%;}
-	.content h1{font-size: 14px;}
-	.content1 p{font-size: 10px;}
-}
-
-
-@media only screen and (max-height:732px){
-	.content1{margin-top:5%;}
-	.content h1{font-size: 16px;}
-	.content1 p{font-size: 30px;}
-}*/
-
-
-/*iPhone 6 width and height*/
-
-/*@media only screen and (max-width:375px) {
-	.content1{margin-top:50%;}
-	.content h1{font-size: 20px;}
-	.content1 p{font-size: 14px;}
-}
-
-
-@media only screen and (max-height:667px){
-	.content1{margin-top:5%;}
-	.content h1{font-size: 40px;}
-	/*.content1 p{font-size: 44px ;}
-}
-
-
-
-/*iPhone Galaxy S5 width and height*/
-
-/*@media only screen and (max-width:360px) {
-	.content1{margin-top:35%;}
-	.content h1{font-size: 16px;}
-	.content1 p{font-size: 14px;}
-}
-
-
-@media only screen and (max-height:640px){
-	.content1{margin-top:35%;}
-	.content h1{font-size: 16px;}
-	.content1 p{font-size: 14px;}
-}*/
-
-
-/*Responsive by default width and height*/
-
-/*@media only screen and (max-width:320px) {
-	.content1{margin-top:35%;}
-	.content h1{font-size: 17px !important;}
-	.content1 p{font-size: 1px !important;}
+@media only screen and (min-width:1200px){
+.content1{margin-top:5%;}
+.middle .row{padding-top:50px;}
 	
 }
 
-
-@media only screen and (max-height:599px){
-	.content1{margin-top:5%;}
-	.content h1{font-size: 16px;}
-	.content1 p{font-size: 14px;}
-}*/
-
-
-/*Tablet width and height*/
-
-/*@media only screen and (max-height:583px){
-	.content1{margin-top: 10%;}
-	.content h1{font-size: 20px;}
-	.content1 p{font-size: 20px;}
-}*/
-
-
-/*iPhone 5 width and height*/
-
-/*@media only screen and (max-width:320px) {
-	.content1{margin-top:35%;}
-	.content h1{font-size: 16px;}
-	.content1 p{font-size: 14px;}
+@media only screen and (min-width:992px){
+.middle .row{padding-top:380px;}
 }
 
+@media only screen and (min-width:768px){
+.middle .row{padding-top:340px;}
+#col4{margin-top:120px; }
+}
 
-@media only screen and (max-height:568px){
-	.content1{margin-top:55%;}
-	.content h1{font-size: 16px;}
-	.content1 p{font-size: 14px;}
-}*/
-
-
-
-
-
-
+@media only screen and (max-width:768px){
+.content1{margin-top:20%;}
+.middle .row{padding-top:50px;}
+#col4{margin-top:75px; }
+#col8{margin-top:150px; }
+}

@@ -67,7 +67,7 @@
 
 	<div class="middle" id="contacts">
 		<div class="container">
-			<div class="row my-row" style="padding-top:250px;">
+			<div class="row">
 				<div class="col-md-6 col-sm-12 col-xs-12">
 					<h2>OMADINGNI <b>SINAB KO`R</b></h2>
 					<p>SHOSHIL !!! Bunday imkoniyatni qo'ldan boy berma.
@@ -98,10 +98,10 @@
 	<!-- /*Bottom section*/ -->
 
 
-	<footer id="address">
+	<div class="footer" id="address">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-sm-4" id="col4">
 					<ul class="text-right">
 		              <li><h3>(71) 200-35-53</h3></li>
 		              <li><h3>SEVENUZ.UZ</h3></li>
@@ -109,12 +109,12 @@
 		              <li><h3>AMIR TEMUR 100</h3></li>
             		</ul>
 				</div>
-				 <div class="col-md-8">
+				 <div class="col-sm-8" id="col8">
 					<img src="{{asset('dist/img/mapuz.jpg')}}" class="img-responsive map">
 				</div>
 			</div>
 		</div>
-	</footer>
+	</div>
 	
 </div>	
 
